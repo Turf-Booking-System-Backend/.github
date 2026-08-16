@@ -37,6 +37,38 @@ Each service owns its **own database** and is developed independently.
 
 ---
 
+# 🛠️ Technology Stack
+
+### Backend
+
+* **Java 17**
+* **Spring Boot**
+* **Spring Security**
+* **JWT**
+* **Spring Data JPA**
+* **Hibernate ORM**
+* **MySQL**
+* **Maven**
+* **Lombok**
+* **Jakarta Validation**
+
+### Development & Tools
+
+* Docker
+* Postman
+* Git
+* Bitbucket / GitHub
+*  Cloudinary — Turf images storage
+
+### Planned Technologies
+
+* WebClient / OpenFeign — service-to-service communication
+* React + Tailwind CSS — frontend
+
+---
+
+---
+
 # 🔐 1. Auth Service
 
 ### Purpose
@@ -150,40 +182,7 @@ Turf + Slot + Booking Date
 
 Existing `PENDING` or `CONFIRMED` bookings prevent another booking for the same slot/date.
 
----
 
-# 🛠️ Technology Stack
-
-### Backend
-
-* **Java 17**
-* **Spring Boot**
-* **Spring Security**
-* **JWT**
-* **Spring Data JPA**
-* **Hibernate ORM**
-* **MySQL**
-* **Maven**
-* **Lombok**
-* **Jakarta Validation**
-
-### Development & Tools
-
-* Docker
-* Postman
-* Git
-* Bitbucket / GitHub
-
-### Planned Technologies
-
-* Cloudinary — Turf images
-* WebClient / OpenFeign — service-to-service communication
-* Razorpay — payments
-* RabbitMQ — asynchronous communication
-* Elasticsearch — advanced turf search
-* React + Tailwind CSS — frontend
-
----
 
 # 🗄️ Database Architecture
 
