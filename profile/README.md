@@ -26,7 +26,7 @@ The project currently contains **3 microservices**:
           ┌──────────────────┼──────────────────┐
           ▼                  ▼                  ▼
    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-   │ auth-service│    │vendor-service│    │booking-service│
+   │ auth-service│    │vendor-service│   │booking-service│
    └──────┬──────┘    └──────┬──────┘    └──────┬──────┘
           │                   │                  │
           ▼                   ▼                  ▼
